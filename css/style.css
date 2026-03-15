@@ -216,6 +216,7 @@ header{
 
 .skill_section{
     padding: 0px 50px 100px 0px;
+    scroll-margin-top: 100px;
 }
 
 .skill_section_header {
@@ -270,6 +271,10 @@ header{
 /* ------------------------------------------------ */
 
 
+
+.project_section_main{
+    scroll-margin-top: 30px;
+}
 .project_header{
     padding: 50px 0px;
     display: flex;
@@ -444,6 +449,68 @@ header{
     padding: 100px 00px 0px 0px;
     
     
+}
+
+
+
+/* ----------------------------------------------- */
+.message_section_base{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    background-color: var(--bg-surface);
+    padding: 40px ;
+}
+.form_section-message .form-messageMe{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.form-messageMe .form_box{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.heading_section-message h1{
+    color: var(--text-primary);
+    font-size: 40px;
+}
+
+.form-messageMe input{
+    height: 50px;
+    border: 2px solid var(--text-primary);
+    background: transparent;
+    border-radius: 5px;
+}
+.form-messageMe input::placeholder{
+    color: var(--text-primary);
+    padding-left: 20px;
+    font-size: 18px;
+
+    font-style: italic;
+}
+.form-messageMe textarea{
+    border: 2px solid var(--text-primary);
+    background: transparent;
+    height: 80px;
+}
+.form-messageMe textarea::placeholder{
+    color: var(--text-primary);
+     padding: 10px 0px 0px 20px;
+    font-style: italic;
+    font-size: 18px;
+}
+.form-messageMe label{
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--text-primary);
+}
+.form-messageMe button{
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 /* ------------------------------------------ */
